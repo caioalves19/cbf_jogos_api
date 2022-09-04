@@ -1,0 +1,1 @@
+web: gunicorn cbf_jogos.wsgi
