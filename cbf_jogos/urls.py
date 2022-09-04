@@ -12,5 +12,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include(router.urls)),
     path("jogos/all", ListaTodosJogos.as_view()),
-    path("rodada/<int:num_rodada>", ListaJogosPorRodada.as_view()),
+    path("rodada/<int:num_rodada>/", ListaJogosPorRodada.as_view()),
 ]
